@@ -1,0 +1,42 @@
+[0.273s] Invoking command in '/home/kunal-jazzy/ROS2_Vision/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/vision_autonomous_rover/install/rover_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunal-jazzy/ROS2_Vision/src/rover_description -DCMAKE_INSTALL_PREFIX=/home/kunal-jazzy/ROS2_Vision/install/rover_description
+[0.415s] -- The C compiler identification is GNU 13.3.0
+[0.522s] -- The CXX compiler identification is GNU 13.3.0
+[0.550s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.695s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.709s] -- Detecting CXX compiler ABI info
+[0.849s] -- Detecting CXX compiler ABI info - done
+[0.861s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.861s] -- Detecting CXX compile features
+[0.862s] -- Detecting CXX compile features - done
+[0.877s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.088s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.261s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.411s] -- Added test 'lint_cmake' to check CMake code style
+[1.413s] -- Added test 'xmllint' to check XML markup files
+[1.416s] -- Configuring done (1.1s)
+[1.418s] -- Generating done (0.0s)
+[1.421s] -- Build files have been written to: /home/kunal-jazzy/ROS2_Vision/build/rover_description
+[1.428s] Invoked command in '/home/kunal-jazzy/ROS2_Vision/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/vision_autonomous_rover/install/rover_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunal-jazzy/ROS2_Vision/src/rover_description -DCMAKE_INSTALL_PREFIX=/home/kunal-jazzy/ROS2_Vision/install/rover_description
+[1.429s] Invoking command in '/home/kunal-jazzy/ROS2_Vision/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/vision_autonomous_rover/install/rover_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ROS2_Vision/build/rover_description -- -j12 -l12
+[1.485s] Invoked command in '/home/kunal-jazzy/ROS2_Vision/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/vision_autonomous_rover/install/rover_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal-jazzy/ROS2_Vision/build/rover_description -- -j12 -l12
+[1.502s] Invoking command in '/home/kunal-jazzy/ROS2_Vision/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/vision_autonomous_rover/install/rover_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ROS2_Vision/build/rover_description
+[1.512s] -- Install configuration: ""
+[1.512s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+[1.512s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+[1.513s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+[1.513s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+[1.513s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/environment/path.sh
+[1.513s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/environment/path.dsv
+[1.513s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/local_setup.bash
+[1.513s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/local_setup.sh
+[1.514s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/local_setup.zsh
+[1.514s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/local_setup.dsv
+[1.514s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/package.dsv
+[1.514s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/ament_index/resource_index/packages/rover_description
+[1.514s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+[1.514s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+[1.514s] -- Installing: /home/kunal-jazzy/ROS2_Vision/install/rover_description/share/rover_description/package.xml
+[1.516s] Invoked command in '/home/kunal-jazzy/ROS2_Vision/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal-jazzy/vision_autonomous_rover/install/rover_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal-jazzy/ROS2_Vision/build/rover_description

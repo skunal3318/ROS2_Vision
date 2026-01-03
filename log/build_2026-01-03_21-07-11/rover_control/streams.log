@@ -1,0 +1,32 @@
+[0.970s] Invoking command in '/home/kunal-jazzy/ROS2_Vision/src/rover_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kunal-jazzy/ROS2_Vision/build/rover_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kunal-jazzy/ROS2_Vision/install/rover_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_control build --build-base /home/kunal-jazzy/ROS2_Vision/build/rover_control/build install --record /home/kunal-jazzy/ROS2_Vision/build/rover_control/install.log --single-version-externally-managed install_data
+[1.281s] running egg_info
+[1.281s] creating ../../build/rover_control/rover_control.egg-info
+[1.302s] writing ../../build/rover_control/rover_control.egg-info/PKG-INFO
+[1.303s] writing dependency_links to ../../build/rover_control/rover_control.egg-info/dependency_links.txt
+[1.303s] writing requirements to ../../build/rover_control/rover_control.egg-info/requires.txt
+[1.303s] writing top-level names to ../../build/rover_control/rover_control.egg-info/top_level.txt
+[1.303s] writing manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'
+[1.346s] reading manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'
+[1.347s] writing manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'
+[1.347s] running build
+[1.347s] running build_py
+[1.348s] creating /home/kunal-jazzy/ROS2_Vision/build/rover_control/build
+[1.348s] creating /home/kunal-jazzy/ROS2_Vision/build/rover_control/build/lib
+[1.348s] creating /home/kunal-jazzy/ROS2_Vision/build/rover_control/build/lib/rover_control
+[1.348s] copying rover_control/__init__.py -> /home/kunal-jazzy/ROS2_Vision/build/rover_control/build/lib/rover_control
+[1.348s] running install
+[1.355s] running install_lib
+[1.377s] creating /home/kunal-jazzy/ROS2_Vision/install/rover_control/lib/python3.12/site-packages/rover_control
+[1.377s] copying /home/kunal-jazzy/ROS2_Vision/build/rover_control/build/lib/rover_control/__init__.py -> /home/kunal-jazzy/ROS2_Vision/install/rover_control/lib/python3.12/site-packages/rover_control
+[1.378s] byte-compiling /home/kunal-jazzy/ROS2_Vision/install/rover_control/lib/python3.12/site-packages/rover_control/__init__.py to __init__.cpython-312.pyc
+[1.378s] running install_data
+[1.378s] creating /home/kunal-jazzy/ROS2_Vision/install/rover_control/share/ament_index
+[1.378s] creating /home/kunal-jazzy/ROS2_Vision/install/rover_control/share/ament_index/resource_index
+[1.379s] creating /home/kunal-jazzy/ROS2_Vision/install/rover_control/share/ament_index/resource_index/packages
+[1.379s] copying resource/rover_control -> /home/kunal-jazzy/ROS2_Vision/install/rover_control/share/ament_index/resource_index/packages
+[1.379s] copying package.xml -> /home/kunal-jazzy/ROS2_Vision/install/rover_control/share/rover_control
+[1.379s] running install_egg_info
+[1.401s] Copying ../../build/rover_control/rover_control.egg-info to /home/kunal-jazzy/ROS2_Vision/install/rover_control/lib/python3.12/site-packages/rover_control-0.0.0-py3.12.egg-info
+[1.402s] running install_scripts
+[1.549s] writing list of installed files to '/home/kunal-jazzy/ROS2_Vision/build/rover_control/install.log'
+[1.591s] Invoked command in '/home/kunal-jazzy/ROS2_Vision/src/rover_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kunal-jazzy/ROS2_Vision/build/rover_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kunal-jazzy/ROS2_Vision/install/rover_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_control build --build-base /home/kunal-jazzy/ROS2_Vision/build/rover_control/build install --record /home/kunal-jazzy/ROS2_Vision/build/rover_control/install.log --single-version-externally-managed install_data
