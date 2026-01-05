@@ -1,4 +1,37 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="vision_robot">
-    
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="vision_robot"> 
+    <xacro:include filename="$(find rover_description)/robot/parts/base/base.urdf.xacro" />
+    <xacro:include filename="$(find rover_description)/robot/parts/wheel/wheel.urdf.xacro"/>
+
+    <link name="world" />
+
+    <xacro:base_v0 parent="world">
+        <joint_origin>
+            <origin xyz="5 0 0" rpy="0 0 0" />
+        </joint_origin>
+    </xacro:base_v0>
+
+
+    <!-- <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="package://rover_description/meshes/STL/base/main_frame.stl" />
+
+            </geometry>
+        </visual>
+    </link> -->
+
+    <xacro:wheel_v0 prefix="fr" parent="base_link">
+        <joint_origin>
+            <origin xyz="0 0 0" />
+        </joint_origin>
+        <axis xyz="0 0 0"/>
+    </xacro:wheel_v0>
+
+    <xacro:wheel_v0 prefix="fl" parent="base_link">
+        <joint_origin>
+            <origin value ="15 0 0"/> 
+        </joint_origin>
+        <axis xyz="0 0 0" />
+    </xacro:wheel_v0>
 </robot>

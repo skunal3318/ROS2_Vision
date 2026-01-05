@@ -1,3 +1,19 @@
 <launch>
-    
+
+  <node
+    pkg="robot_state_publisher"
+    exec="robot_state_publisher"
+    output="screen">
+
+    <param
+      name="robot_description"
+      value="$(find-exec xacro) --inorder $(find-pkg-share rover_description)/robot/rover_main.urdf.xacro"/>
+
+  </node>
+
+  <node
+    pkg="rviz2"
+    exec="rviz2"
+    output="screen"/>
+
 </launch>
